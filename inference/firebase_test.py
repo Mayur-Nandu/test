@@ -127,5 +127,5 @@ while(True):
 
 
 
-    storage.child("obj/obj.ply").put("1.png.ply")
+    storage.child("obj/obj.ply").put("data/1.png.ply")
 
