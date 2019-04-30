@@ -24,7 +24,7 @@ config = {
 firebase=pyrebase.initialize_app(config)
 storage=firebase.storage()
 #storage.child("obj/obj.ply").put("2.ply")
-while(true):
+while(True):
     
     storage.child("obj/new.png").download('data/1.png')
     exist=os.path.isfile('data/1.png')
