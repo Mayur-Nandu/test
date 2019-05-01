@@ -14,12 +14,12 @@ from ply import *
 import pandas as pd
 
 config = {
-    "apiKey": "AIzaSyD3AKt54QUkjbd9B8CaZ8ksg5y7fRzZV1s",
-    "authDomain": "connect-to-gcp-new.firebaseapp.com",
-    "databaseURL": "https://connect-to-gcp-new.firebaseio.com",
-    "projectId": "connect-to-gcp-new",
-    "storageBucket": "connect-to-gcp-new.appspot.com",
-    "messagingSenderId": "779277451716"
+   "apiKey": "AIzaSyBPpU9Qb00epagO4hUxNjNlwMQaV0acU7o",
+    "authDomain": "beproject-3e8de.firebaseapp.com",
+    "databaseURL": "https://beproject-3e8de.firebaseio.com",
+    "projectId": "beproject-3e8de",
+    "storageBucket": "beproject-3e8de.appspot.com",
+    "messagingSenderId": "528652343966"
   };
 firebase=pyrebase.initialize_app(config)
 storage=firebase.storage()
